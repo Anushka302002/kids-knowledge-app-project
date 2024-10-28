@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Fruits"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid Padding="20">
+
+
+                    <ImageButton BackgroundColor="white" x:Name="Apple"      BorderColor="Black"  Clicked="Apple_Clicked"        Grid.Row="0" Grid.Column="0" Source="apple.jpg"/>
+                    <ImageButton BackgroundColor="white" x:Name="Lemon"      BorderColor="Black"  Clicked="Lemon_Clicked"        Grid.Row="0" Grid.Column="1" Source="lemon.jpg"/>
+                    <ImageButton BackgroundColor="white" x:Name="Grapes"     BorderColor="Black"  Clicked="Grapes_Clicked"       Grid.Row="1" Grid.Column="0" Source="grapes.jpg"/>
+                    <ImageButton BackgroundColor="white" x:Name="Orange"     BorderColor="Black"  Clicked="Orange_Clicked"       Grid.Row="1" Grid.Column="1" Source="orange.jpg"/>
+                    <ImageButton BackgroundColor="white" x:Name="Strawberry" BorderColor="Black"  Clicked="Strawberry_Clicked"   Grid.Row="2" Grid.Column="0" Source="strawberry.jpg"/>
+                    <ImageButton BackgroundColor="white" x:Name="Mango"      BorderColor="Black"  Clicked="Mango_Clicked"        Grid.Row="2" Grid.Column="1" Source="mango.jpg"/>
+                    <ImageButton BackgroundColor="white" x:Name="Banana"     BorderColor="Black"  Clicked="Banana_Clicked"       Grid.Row="3" Grid.Column="0" Source="banana.jpg"/>
+                    <ImageButton BackgroundColor="white" x:Name="Watermelon" BorderColor="Black"  Clicked="Watermelon_Clicked"   Grid.Row="3" Grid.Column="1" Source="watermelon.jpg"/>
+                    <ImageButton BackgroundColor="white" x:Name="Pineapple"  BorderColor="Black"  Clicked="Pineapple_Clicked"    Grid.Row="4" Grid.Column="0" Source="pineapple.jpg"/>
+                    <ImageButton BackgroundColor="white" x:Name="Cococnut"   BorderColor="Black"  Clicked="Cococnut_Clicked"     Grid.Row="4" Grid.Column="1" Source="coconut.jpg"/>
+
+                 </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Numbers"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content >
+        
+        <Grid Padding="20" >
+            <ImageButton BackgroundColor="White" x:Name="zero"     HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="zero_Clicked"      Grid.Row="0" Grid.Column="0" Source="n0.jfif"/>
+            <ImageButton BackgroundColor="White" x:Name="one"      HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="one_Clicked"       Grid.Row="0" Grid.Column="1" Source="n1.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="two"      HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="two_Clicked"       Grid.Row="1" Grid.Column="0" Source="n2.jpg"/>
+                    <ImageButton BackgroundColor="White" x:Name="three"    HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="three_Clicked"     Grid.Row="1" Grid.Column="1" Source="n3.jpg"/>
+                    <ImageButton BackgroundColor="White" x:Name="four"     HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="four_Clicked"      Grid.Row="2" Grid.Column="0" Source="n4.jpg"/>
+                    <ImageButton BackgroundColor="White" x:Name="five"     HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="five_Clicked"      Grid.Row="2" Grid.Column="1" Source="n5.jpg"/>
+                    <ImageButton BackgroundColor="White" x:Name="six"      HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="six_Clicked"       Grid.Row="3" Grid.Column="0" Source="n6.jpgg"/>
+                    <ImageButton BackgroundColor="White" x:Name="seven"    HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="seven_Clicked"     Grid.Row="3" Grid.Column="1" Source="n7.jpg"/>
+                    <ImageButton BackgroundColor="White" x:Name="eight"    HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="eight_Clicked"     Grid.Row="4" Grid.Column="0" Source="n8.jpg"/>
+                    <ImageButton BackgroundColor="White" x:Name="nine"     HeightRequest="120" WidthRequest="120" BorderColor="Black"  Clicked="nine_Clicked"      Grid.Row="4" Grid.Column="1" Source="n9.jpg"/>
+                                                                             
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Animals"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout BackgroundColor="DarkCyan">
+        <Grid Padding="10">
+
+                    <ImageButton BackgroundColor="White" x:Name="Elephant"  BorderColor="Black" Clicked="Elephant_Clicked" CornerRadius="15" Margin="5"  Grid.Row="0" Grid.Column="0" Source="elephant.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="Lion"      BorderColor="Black"  Clicked="Lion_Clicked"    CornerRadius="15" Margin="5"  Grid.Row="0" Grid.Column="1" Source="lion.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="Tiger"     BorderColor="Black"  Clicked="Tiger_Clicked"   CornerRadius="15" Margin="5"  Grid.Row="1" Grid.Column="0" Source="tiger.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="zebra"     BorderColor="Black"  Clicked="zebra_Clicked"   CornerRadius="15" Margin="5"  Grid.Row="1" Grid.Column="1" Source="zebra.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="Camel"     BorderColor="Black"  Clicked="Camel_Clicked"   CornerRadius="15" Margin="5"  Grid.Row="2" Grid.Column="0" Source="camel.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="Cow"       BorderColor="Black"  Clicked="Cow_Clicked"     CornerRadius="15" Margin="5"  Grid.Row="2" Grid.Column="1" Source="cow.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="Giraffe"   BorderColor="Black"  Clicked="Giraffe_Clicked" CornerRadius="15" Margin="5"  Grid.Row="3" Grid.Column="0" Source="giraffe.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="Horse"     BorderColor="Black"  Clicked="Horse_Clicked"   CornerRadius="15" Margin="5"  Grid.Row="3" Grid.Column="1" Source="horse.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="Cat"       BorderColor="Black"  Clicked="Cat_Clicked"     CornerRadius="15" Margin="5"  Grid.Row="4" Grid.Column="0" Source="cat.jfif"/>
+                    <ImageButton BackgroundColor="White" x:Name="Dog"       BorderColor="Black"  Clicked="Dog_Clicked"     CornerRadius="15" Margin="5"  Grid.Row="4" Grid.Column="1" Source="dog.jfif"/>
+
+        </Grid>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

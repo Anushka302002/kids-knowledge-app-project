@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Flowers"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+        <Grid Padding="20">
+
+                    <ImageButton  x:Name="Rose"       Clicked="Rose_Clicked"      BorderColor="Black" BackgroundColor="White"  Grid.Row="0" Grid.Column="0" Source="rose.jfif"/>
+                    <ImageButton  x:Name="Sunflower"  Clicked="Sunflower_Clicked" BorderColor="Black" BackgroundColor="White"  Grid.Row="0" Grid.Column="1" Source="sunflower.jfif"/>
+                    <ImageButton  x:Name="Marigold"   Clicked="Marigold_Clicked"  BorderColor="Black" BackgroundColor="White"  Grid.Row="1" Grid.Column="0" Source="marigold.jfif"/>
+                    <ImageButton  x:Name="Lotus"      Clicked="Lotus_Clicked"     BorderColor="Black" BackgroundColor="White"  Grid.Row="1" Grid.Column="1" Source="lotus.jfif"/>
+                    <ImageButton  x:Name="Lily"       Clicked="Lily_Clicked"      BorderColor="Black" BackgroundColor="White"  Grid.Row="2" Grid.Column="0" Source="lily.jfif"/>
+                    <ImageButton  x:Name="Hibiscus"   Clicked="Hibiscus_Clicked"  BorderColor="Black" BackgroundColor="White"  Grid.Row="2" Grid.Column="1" Source="hibiscus.jfif"/>
+                    <ImageButton  x:Name="Dahlia"     Clicked="Dahlia_Clicked"    BorderColor="Black" BackgroundColor="White"  Grid.Row="3" Grid.Column="0" Source="dahlia.jfif"/>
+                    <ImageButton  x:Name="Tulip"      Clicked="Tulip_Clicked"     BorderColor="Black" BackgroundColor="White"  Grid.Row="3" Grid.Column="1" Source="tulip.jfif"/>
+                    <ImageButton  x:Name="Daisy"      Clicked="Daisy_Clicked"     BorderColor="Black" BackgroundColor="White"  Grid.Row="4" Grid.Column="0" Source="daisy.jfif"/>
+                    <ImageButton  x:Name="Mogra"      Clicked="Mogra_Clicked"     BorderColor="Black" BackgroundColor="White"  Grid.Row="4" Grid.Column="1" Source="mogra.jfif"/>
+                                                                           
+        </Grid>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

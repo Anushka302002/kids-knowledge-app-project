@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="KKApp.Vegetables"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="DarkCyan">
+                <Grid Padding="10">
+
+                    <ImageButton  x:Name="Tomato"     CornerRadius="15" Margin="3"  Clicked="Tomato_Clicked"      BorderColor="Black" BackgroundColor="White"  Grid.Row="0" Grid.Column="0" Source="tomato.jfif"/>
+                    <ImageButton  x:Name="Capsicum"   CornerRadius="15" Margin="3"  Clicked="Capsicum_Clicked"    BorderColor="Black"  BackgroundColor="White"  Grid.Row="0" Grid.Column="1" Source="capsicum.jfif"/>
+                    <ImageButton  x:Name="Carrot"     CornerRadius="15" Margin="3"  Clicked="Carrot_Clicked"      BorderColor="Black" BackgroundColor="White"  Grid.Row="1" Grid.Column="0" Source="carrot.jfif"/>
+                    <ImageButton  x:Name="Pumpkin"    CornerRadius="15" Margin="3"  Clicked="Pumpkin_Clicked"     BorderColor="Black" BackgroundColor="White"  Grid.Row="1" Grid.Column="1" Source="pumpkin.jfif"/>
+                    <ImageButton  x:Name="Cucumber"   CornerRadius="15" Margin="3"  Clicked="Cucumber_Clicked"    BorderColor="Black" BackgroundColor="White"  Grid.Row="2" Grid.Column="0" Source="cucumber.jfif"/>
+                    <ImageButton  x:Name="Beetroot"   CornerRadius="15" Margin="3"  Clicked="Beetroot_Clicked"    BorderColor="Black" BackgroundColor="White"  Grid.Row="2" Grid.Column="1" Source="beetroot.jfif"/>
+                    <ImageButton  x:Name="Potato"     CornerRadius="15" Margin="3"  Clicked="Potato_Clicked"      BorderColor="Black" BackgroundColor="White"  Grid.Row="3" Grid.Column="0" Source="potato.jfif"/>
+                    <ImageButton  x:Name="Onion"      CornerRadius="15" Margin="3"  Clicked="Onion_Clicked"       BorderColor="Black" BackgroundColor="White"  Grid.Row="3" Grid.Column="1" Source="onion.jfif"/>
+                    <ImageButton  x:Name="LadyFinger" CornerRadius="15" Margin="3"  Clicked="LadyFinger_Clicked"  BorderColor="Black" BackgroundColor="White"  Grid.Row="4" Grid.Column="0" Source="ladyfinger.jfif"/>
+                    <ImageButton  x:Name="Brinjal"    CornerRadius="15" Margin="3"  Clicked="Brinjal_Clicked"     BorderColor="Black" BackgroundColor="White"  Grid.Row="4" Grid.Column="1" Source="brinjal.jfif"/>
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

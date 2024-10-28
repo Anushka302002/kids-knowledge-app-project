@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Arithematic_Operation"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <Label Text="Arithematics Operation" FontAttributes="Bold,Italic" TextColor="Black"  Padding="0,5,0,10" FontSize="25" HorizontalTextAlignment="Center" />
+
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand" Margin="0,0,10,0" >
+                <Frame BackgroundColor="white"  BorderColor="black" Margin="2">
+                    <Entry FontAttributes="Italic" Placeholder="Enter First No." PlaceholderColor="Gray" x:Name="FirstNumber_Entry"
+                   Keyboard="Numeric" TextColor="Black" FontSize="20" Margin="-10,0,10,-10"  />
+                </Frame>
+                <Frame BackgroundColor="white" BorderColor="black" Margin="5,0,2,0" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
+                    <Entry  FontAttributes="Italic" Placeholder="Enter Second No." PlaceholderColor="Gray" x:Name="SecondNumber_Entry"
+                   Keyboard="Numeric" TextColor="Black" FontSize="20" Margin="-10,0,10,-10" />
+                </Frame>
+            </StackLayout>
+            <StackLayout Padding="10"/>
+
+            <Frame BackgroundColor="white" BorderColor="Black">
+                <Label Text="OUTPUT" FontAttributes="Bold"  TextColor="Black" HorizontalTextAlignment="Center" Margin="0,10,0,0" FontSize="30"
+               x:Name="OP_Label"/>
+            </Frame>
+            <StackLayout Padding="10"/>
+            <Grid >
+                <Button Text="+"                
+                Grid.Row="0"
+                Grid.Column="0"
+                   
+                FontSize="60"
+                FontAttributes="Bold"
+                x:Name="ADD_BUTTON"
+                BorderWidth="2"
+                BackgroundColor="White"
+                BorderColor="black"
+                
+                Clicked="ADD_BUTTON_Clicked">
+                </Button>
+                <Button Text="-"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    FontSize="60"              
+                    FontAttributes="Bold"
+                    x:Name="SUB_BUTTON"
+                    BorderWidth="2"
+                    BackgroundColor="white"
+                    BorderColor="Black"
+                    
+                    Clicked="SUB_BUTTON_Clicked">
+
+                </Button>
+                <Button Text="×"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    FontSize="60"               
+                    FontAttributes="Bold"
+                    x:Name="MUL_BUTTON"
+                    BorderWidth="2"
+                    BackgroundColor="white"
+                    BorderColor="Black"     
+                    
+                    Clicked="MUL_BUTTON_Clicked">
+                    
+                </Button>
+                <Button Text="÷"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    FontSize="60"   
+                    FontAttributes="Bold"          
+                    x:Name="DIV_BUTTON"
+                    BorderWidth="2"
+                    BackgroundColor="White"           
+                    BorderColor="Black"
+                    
+                    Clicked="DIV_BUTTON_Clicked"></Button>
+                
+                    
+                
+            </Grid>
+            <StackLayout Padding="10"/>
+            <Button Text="Reset"
+                 
+              
+                    
+                    Padding="25"             
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    x:Name="RESET_BUTTON"
+                   
+                    BackgroundColor="white"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    Clicked="RESET_BUTTON_Clicked"
+                    Margin="0,10,0,10"  >
+
+
+            </Button>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

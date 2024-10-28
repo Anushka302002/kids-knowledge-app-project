@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Fruits"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="DarkCyan">
+                <Grid Padding="10">
+                    <ImageButton Grid.Row="0" BackgroundColor="White" CornerRadius="15" Margin="3" Clicked="apple" Grid.Column="0" Source="apple.jpg"/>
+                    <ImageButton Grid.Row="0" BackgroundColor="white" CornerRadius="15" Margin="3" Clicked="lemon" Grid.Column="1" Source="lemon.jpg"/>
+                    <ImageButton Grid.Row="1" BackgroundColor="White" CornerRadius="15" Margin="3" Clicked="grapes" Grid.Column="0" Source="grapes.jpg"/>
+                    <ImageButton Grid.Row="1" BackgroundColor="white" CornerRadius="15" Margin="3" Clicked="orange" Grid.Column="1" Source="orange.jpg"/>
+                    <ImageButton Grid.Row="2" BackgroundColor="white" CornerRadius="15" Margin="3" Clicked="strawberry" Grid.Column="0" Source="strawberry.jpg"/>
+                    <ImageButton Grid.Row="2" BackgroundColor="white" CornerRadius="15" Margin="3" Clicked="mango" Grid.Column="1" Source="mango.jpg"/>
+                    <ImageButton Grid.Row="3" BackgroundColor="white" CornerRadius="15" Margin="3" Clicked="banana" Grid.Column="0" Source="banana.jpg"/>
+                    <ImageButton Grid.Row="3" BackgroundColor="white" CornerRadius="15" Margin="3" Clicked="watermelon" Grid.Column="1" Source="watermelon.jpg"/>
+                    <ImageButton Grid.Row="4" BackgroundColor="white" CornerRadius="15" Margin="3" Clicked="pineapple" Grid.Column="0" Source="pineapple.jpg"/>
+                    <ImageButton Grid.Row="4" BackgroundColor="white" CornerRadius="15" Margin="3" Clicked="coconut" Grid.Column="1" Source="coconut.jpg"/>
+
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

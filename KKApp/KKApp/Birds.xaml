@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Birds"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+      <ScrollView>
+         <StackLayout BackgroundColor="DarkCyan">
+          <Grid Padding="10">
+
+                    <ImageButton x:Name="Peacock" BackgroundColor="White" BorderColor="Black" Clicked="Peacock_Clicked" CornerRadius="15" Margin="3" Grid.Row="0" Grid.Column="0" Source="peacock.jfif"/>
+                    <ImageButton x:Name="Parrot"  BackgroundColor="White" BorderColor="Black" Clicked="Parrot_Clicked"  CornerRadius="15" Margin="3" Grid.Row="0" Grid.Column="1" Source="parrot.jfif"/>
+                    <ImageButton x:Name="Crow"    BackgroundColor="White" BorderColor="Black" Clicked="Crow_Clicked"    CornerRadius="15" Margin="3" Grid.Row="1" Grid.Column="0" Source="crow.jfif"/>
+                    <ImageButton x:Name="Sparrow" BackgroundColor="White" BorderColor="Black" Clicked="Sparrow_Clicked" CornerRadius="15" Margin="3" Grid.Row="1" Grid.Column="1" Source="sparrow.jfif"/>
+                    <ImageButton x:Name="Owl"     BackgroundColor="White" BorderColor="Black" Clicked="Owl_Clicked"     CornerRadius="15" Margin="3" Grid.Row="2" Grid.Column="0" Source="owl.jfif"/>
+                    <ImageButton x:Name="Pigeon"  BackgroundColor="White" BorderColor="Black" Clicked="Pigeon_Clicked"  CornerRadius="15" Margin="3" Grid.Row="2" Grid.Column="1" Source="pigeon.jfif"/>
+                    <ImageButton x:Name="Duck"    BackgroundColor="White" BorderColor="Black" Clicked="Duck_Clicked"    CornerRadius="15" Margin="3" Grid.Row="3" Grid.Column="0" Source="duck.jfif"/>
+                    <ImageButton x:Name="Cock"    BackgroundColor="White" BorderColor="Black" Clicked="Cock_Clicked"    CornerRadius="15" Margin="3" Grid.Row="3" Grid.Column="1" Source="cock.jfif"/>
+                    <ImageButton x:Name="penguin" BackgroundColor="White" BorderColor="Black" Clicked="penguin_Clicked" CornerRadius="15" Margin="3" Grid.Row="4" Grid.Column="0" Source="penguin.jfif"/>
+                    <ImageButton x:Name="Swan"    BackgroundColor="White" BorderColor="Black" Clicked="Swan_Clicked"    CornerRadius="15" Margin="3" Grid.Row="4" Grid.Column="1" Source="swan.jfif"/>
+
+        </Grid>
+      </StackLayout>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Arithematic_Operation"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Padding="10" BackgroundColor="DarkCyan">
+
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand" >
+                <Frame BackgroundColor="DarkCyan" BorderColor="LightCyan" Padding="5,0,10,0" CornerRadius="15"  HorizontalOptions="Start">
+                    <Entry FontAttributes="Bold,Italic" Placeholder="Enter 1st" PlaceholderColor="LightCyan" x:Name="FirstNumber_Entry"
+                   Keyboard="Numeric" TextColor="Black" FontSize="30"   />
+                </Frame>
+                <Frame BackgroundColor="DarkCyan" BorderColor="LightCyan"  CornerRadius="15" Padding="5,0,10,0" >
+                    <Entry  FontAttributes="Bold,Italic" Placeholder="Enter 2nd" PlaceholderColor="LightCyan" x:Name="SecondNumber_Entry"
+                   Keyboard="Numeric" TextColor="Black" FontSize="30"  />
+                </Frame>
+            </StackLayout>
+
+            <Frame BackgroundColor="LightCyan" Margin="0,0,0,0" CornerRadius="15" Padding="5">
+                <Label Text="Output" FontAttributes="Bold,Italic"  TextColor="Black" HorizontalTextAlignment="Center" Margin="0,10,0,0" FontSize="30"
+               x:Name="OP_Label"/>
+            </Frame>
+            <Grid   >
+                <Button Text="+" TextColor="DarkCyan"              
+                Grid.Row="0"
+                Grid.Column="0"                
+                FontSize="60"
+                FontAttributes="Bold"
+                x:Name="ADD_BUTTON"
+                BorderWidth="1"
+                BackgroundColor="LightCyan"
+                BorderColor="black"
+                CornerRadius="10"
+                Clicked="ADD_BUTTON_Clicked">
+                </Button>
+                <Button Text="-" TextColor="DarkCyan"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    FontSize="60"              
+                    FontAttributes="Bold"
+                    x:Name="SUB_BUTTON"
+                    BorderWidth="1"
+                    BackgroundColor="LightCyan"
+                    BorderColor="Black"
+                    CornerRadius="10"
+                    Clicked="SUB_BUTTON_Clicked">
+                </Button>
+                
+                <Button Text="×" TextColor="DarkCyan"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    FontSize="60"               
+                    FontAttributes="Bold"
+                    x:Name="MUL_BUTTON"
+                    BorderWidth="1"
+                    BackgroundColor="LightCyan"
+                    BorderColor="Black"     
+                    CornerRadius="10"
+                    Clicked="MUL_BUTTON_Clicked"></Button>
+
+                <Button Text="÷" TextColor="DarkCyan"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    FontSize="60"   
+                    FontAttributes="Bold"          
+                    x:Name="DIV_BUTTON"
+                    BorderWidth="1"
+                    BackgroundColor="LightCyan"           
+                    BorderColor="Black"
+                    CornerRadius="10"
+                    Clicked="DIV_BUTTON_Clicked"></Button>
+
+            </Grid>
+            <Button Text="Reset" 
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    x:Name="RESET_BUTTON"
+                    BorderWidth="1"
+                    BackgroundColor="LightCyan"
+                    TextColor="Black"
+                    BorderColor="Black"
+                    CornerRadius="10"
+                    Clicked="RESET_BUTTON_Clicked"></Button>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

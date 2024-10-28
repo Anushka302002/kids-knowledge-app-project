@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Marathi_Letters"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+
+        <Grid BackgroundColor="DarkCyan">
+
+
+
+            <ImageButton x:Name="अ_Label" Margin="40,10,40,10"  Clicked="अ_Label_Clicked"  Grid.Row="0" Grid.Column="0"    Source="m1.jpg"  BorderColor="Black" BorderWidth="3" Background="GhostWhite" />
+            <ImageButton x:Name="आ_Label" Margin="40,10,40,10"  Clicked="आ_Label_Clicked"  Grid.Row="0" Grid.Column="1"     Source="m2.jpg" BorderColor="Black" BorderWidth="3"  Background="GhostWhite"/>
+            <ImageButton x:Name="इ_Label"  Margin="40,10,40,10"  Clicked="इ_Label_Clicked"   Grid.Row="1" Grid.Column="0"     Source="m3.jpg" BorderColor="Black" BorderWidth="3" Background="GhostWhite" />
+            <ImageButton x:Name="ई_Label"  Margin="40,10,40,10"  Clicked ="ई_Label_Clicked"   Grid.Row="1" Grid.Column="1" Source="m4.jpg" BorderColor="Black" BorderWidth="3" Background="GhostWhite" />
+            <ImageButton x:Name="उ_Label"  Margin="40,10,40,10"  Clicked="उ_Label_Clicked"   Grid.Row="2" Grid.Column="0" Source="m5.jpg"  BorderColor="Black" BorderWidth="3" Background="GhostWhite"/>
+            <ImageButton x:Name="ऊ_Label" Margin="40,10,40,10"   Clicked="ऊ_Label_Clicked"     Grid.Row="2" Grid.Column="1" Source="m6.jpg"  BorderColor="Black" BorderWidth="3" Background="GhostWhite"/>
+            <ImageButton x:Name="ए_Label"  Margin="40,10,40,10"  Clicked="ए_Label_Clicked"      Grid.Row="3" Grid.Column="0" Source="m7.jpg" BorderColor="Black" BorderWidth="3" Background="GhostWhite" />
+            <ImageButton x:Name="ऐ_Label"  Margin="40,10,40,10"  Clicked="ऐ_Label_Clicked"     Grid.Row="3" Grid.Column="1" Source="m8.jpg" BorderColor="Black" BorderWidth="3" Background="GhostWhite"  />
+            <ImageButton x:Name="ओ_Label" Margin="40,10,40,10"  Clicked="ओ_Label_Clicked"   Grid.Row="4" Grid.Column="0" Source="m9.jpg" BorderColor="Black" BorderWidth="3" Background="GhostWhite" />
+            <ImageButton x:Name="औ_Label" Margin="40,10,40,10"  Clicked="औ_Label_Clicked"    Grid.Row="4" Grid.Column="1" Source="m10.jpg" BorderColor="Black" BorderWidth="3" Background="GhostWhite"/>
+            <ImageButton x:Name="अं_Label" Margin="40,10,40,10" Clicked="अं_Label_Clicked"    Grid.Row="5" Grid.Column="0" Source="m11.jpg"  BorderColor="Black" BorderWidth="3"  Background="GhostWhite"/>
+            <ImageButton x:Name="अः_Label" Margin="40,10,40,10"  Clicked="अः_Label_Clicked"    Grid.Row="5" Grid.Column="1" Source="m12.jpg" BorderColor="Black" BorderWidth="3"  Background="GhostWhite"/>
+
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

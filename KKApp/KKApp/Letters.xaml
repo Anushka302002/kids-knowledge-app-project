@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Letters"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+
+
+
+        <Grid  BackgroundColor="DarkCyan" Padding="10" >
+
+
+            <ImageButton x:Name="A_Label"  CornerRadius="15"  Clicked="A_Label_Clicked"    Grid.Row="0" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="a.jpg"/>
+            <ImageButton x:Name="B_Label"  CornerRadius="15"  Clicked="B_Label_Clicked"    Grid.Row="0" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="b.jpg" Padding="1" />
+            <ImageButton x:Name="C_Label"  CornerRadius="15"  Clicked="C_Label_Clicked"    Grid.Row="0" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="c.jpg"/>
+            <ImageButton x:Name="D_Label"  CornerRadius="15"  Clicked ="D_Label_Clicked"   Grid.Row="1" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="d.jpg" Padding="1"  />
+            <ImageButton x:Name="E_Label"  CornerRadius="15"  Clicked="E_Label_Clicked"    Grid.Row="1" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="e.jpg" Padding="1"/>
+            <ImageButton x:Name="F_Label"  CornerRadius="15"  Clicked="F_Label_Clicked"    Grid.Row="1" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="f.jpg" Padding="1"/>
+            <ImageButton x:Name="G_Label"  CornerRadius="15"  Clicked="G_Label_Clicked"    Grid.Row="2" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="g.jpg" Padding="1"/>
+            <ImageButton x:Name="H_Label"  CornerRadius="15"  Clicked="H_Label_Clicked"    Grid.Row="2" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="h.jpg" Padding="1"/>
+            <ImageButton x:Name="I_Label"  CornerRadius="15"  Clicked="I_Label_Clicked"    Grid.Row="2" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="i.jpg" Padding="1"/>
+            <ImageButton x:Name="J_Label"  CornerRadius="15"  Clicked="J_Label_Clicked"    Grid.Row="3" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="j.jpg" Padding="1"/>
+            <ImageButton x:Name="K_Label"  CornerRadius="15"  Clicked="K_Label_Clicked"    Grid.Row="3" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="k.jpg" Padding="1"/>
+            <ImageButton x:Name="L_Label"  CornerRadius="15"  Clicked="L_Label_Clicked"    Grid.Row="3" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="l.jpg" Padding="1"/>
+            <ImageButton x:Name="M_Label"  CornerRadius="15"  Clicked="M_Label_Clicked"    Grid.Row="4" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="m.jpg" Padding="1"  />
+            <ImageButton x:Name="N_Label"  CornerRadius="15"  Clicked ="N_Label_Clicked"   Grid.Row="4" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="n.jpg"/>
+            <ImageButton x:Name="O_Label"  CornerRadius="15"  Clicked="O_Label_Clicked"    Grid.Row="4" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="o.jpg" Padding="1"/>
+            <ImageButton x:Name="P_Label"  CornerRadius="15"  Clicked="P_Label_Clicked"    Grid.Row="5" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="p.jpg" Padding="1"/>
+            <ImageButton x:Name="Q_Label"  CornerRadius="15"  Clicked="Q_Label_Clicked"    Grid.Row="5" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="q.jpg" Padding="1"/>
+            <ImageButton x:Name="R_Label"  CornerRadius="15"  Clicked="R_Label_Clicked"    Grid.Row="5" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="r.jpg" Padding="1"  />
+            <ImageButton x:Name="S_Label"  CornerRadius="15"  Clicked="S_Label_Clicked"    Grid.Row="6" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="s.jpg" Padding="1"/>
+            <ImageButton x:Name="T_Label"  CornerRadius="15"  Clicked="T_Label_Clicked"    Grid.Row="6" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="t.jpg" Padding="1"/>
+            <ImageButton x:Name="U_Label"  CornerRadius="15"  Clicked="U_Label_Clicked"    Grid.Row="6" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="u.jpg" Padding="1"/>
+            <ImageButton x:Name="V_Label"  CornerRadius="15"  Clicked="V_Label_Clicked"    Grid.Row="7" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="v.jpg" Padding="1"/>
+            <ImageButton x:Name="W_Label"  CornerRadius="15"  Clicked= "W_Label_Clicked"   Grid.Row="7" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="w.jpg" Padding="-3"  />
+            <ImageButton x:Name="X_Label"  CornerRadius="15"  Clicked ="X_Label_Clicked"   Grid.Row="7" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="x.jpg"/>
+            <ImageButton x:Name="Y_Label"  CornerRadius="15"  Clicked="Y_Label_Clicked"    Grid.Row="8" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="y.jpg" Padding="1"/>
+            <ImageButton x:Name="Z_Label"  CornerRadius="15"  Clicked="Z_Label_Clicked"    Grid.Row="8" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="z.jpg" Padding="1"/>
+
+        </Grid>
+
+
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             
+             BackgroundColor="White">
+
+    
+        <ScrollView>
+            
+            <StackLayout>
+
+
+               <Grid Padding="20" >
+                   <ImageButton x:Name="Numbers_Label"              Grid.Row="0" Grid.Column="0" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Numbers_Label_Clicked"               Source="numbers.jpg" />
+                   <ImageButton x:Name="Letters_Label"              Grid.Row="0" Grid.Column="1" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Letters_Label_Clicked"               Source="a.jpg"/>
+                   <ImageButton x:Name="MarathiLetters_Label"       Grid.Row="1" Grid.Column="0" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="MarathiLetters_Label_Clicked"        Source=""/>
+                   <ImageButton x:Name="Colors_Label"               Grid.Row="1" Grid.Column="1" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Colors_Label_Clicked"                Source="colors.jpg"/>
+                   <ImageButton x:Name="Animals_Label"              Grid.Row="2" Grid.Column="0" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Animals_Label_Clicked"               Source="animal1.jfif"/>
+                   <ImageButton x:Name="Birds_Label"                Grid.Row="2" Grid.Column="1" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Birds_Label_Clicked"                 Source="birds2o.jpg"/>
+                   <ImageButton x:Name="Fruits_Label"               Grid.Row="3" Grid.Column="0" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Fruits_Label_Clicked"                Source="fruits.jpg"/>
+                   <ImageButton x:Name="Flowers_Label"              Grid.Row="3" Grid.Column="1" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Flowers_Label_Clicked"               Source="flowers.jfif"/>
+                   <ImageButton x:Name="Vegetables_Label"           Grid.Row="4" Grid.Column="0" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Vegetables_Label_Clicked"            Source="vegetables.jfif"/>
+                   <ImageButton x:Name="ArithematicOperation_Label" Grid.Row="4" Grid.Column="1" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="ArithematicOperation_Label_Clicked"  Source="arithematicopcalculator.jpg"/>
+                   <ImageButton x:Name="Puzzles_Label"              Grid.Row="5" Grid.Column="0" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Puzzles_Label_Clicked"               Source="puzzle.jpg"/>
+                   <ImageButton x:Name="Poems_Label"                Grid.Row="5" Grid.Column="1" HeightRequest="150" WidthRequest="150"  BackgroundColor="White"  BorderColor="Black"  Clicked="Poems_Label_Clicked"                 Source="poem.jfif"/>
+                 
+               </Grid>
+            </StackLayout>
+        </ScrollView>
+
+</ContentPage>

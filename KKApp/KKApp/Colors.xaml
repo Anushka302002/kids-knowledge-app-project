@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Colors"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+      
+      
+           <Grid Padding="10" BackgroundColor="DarkCyan">
+            <Button x:Name="Yellow_Label"     CornerRadius="50"  Clicked="Yellow_Label_Clicked"       Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="Yellow"      BorderColor="white" BorderWidth="2" Background="yellow" TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="Blue_Label"       CornerRadius="50"  Clicked="Blue_Label_Clicked"         Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="Blue"       BorderColor="white" BorderWidth="2"  Background="blue"   TextColor="White" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="Pink_Label"       CornerRadius="50"  Clicked="Pink_Label_Clicked"         Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="Pink"       BorderColor="white" BorderWidth="2" Background="Pink"   TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="Green_Label"      CornerRadius="50"  Clicked ="Green_Label_Clicked"       Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="Green"      BorderColor="white" BorderWidth="2" Background="Green"  TextColor="White" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="Red_Label"        CornerRadius="50"  Clicked="Red_Label_Clicked"          Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="Red"        BorderColor="white" BorderWidth="2" Background="Red"    TextColor="White" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="Purple_Label"     CornerRadius="50"  Clicked="Purple_Label_Clicked"       Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="Purple"     BorderColor="white" BorderWidth="2" Background="purple" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="Orange_Label"     CornerRadius="50"  Clicked="Orange_Label_Clicked"       Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="Orange"     BorderColor="white" BorderWidth="2" Background="Orange" TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="LightBlue_Label"  CornerRadius="50"  Clicked="LightBlue_Label_Clicked"    Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="SkyBlue"    BorderColor="white" BorderWidth="2"  Background="skyblue"   TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="Brown_Label"      CornerRadius="50"  Clicked="Brown_Label_Clicked"        Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="Brown"      BorderColor="white" BorderWidth="2" Background="Brown"   TextColor="White" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="LightGreen_Label" CornerRadius="50"  Clicked ="LightGreen_Label_Clicked"  Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="LightGreen" BorderColor="white" BorderWidth="2" Background="Lightgreen"  TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="White_Label"      CornerRadius="50"  Clicked="White_Label_Clicked"        Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="White"      BorderColor="LightGray" BorderWidth="2" Background="white"    TextColor="Black" FontSize="20" FontAttributes="Bold"/>
+            <Button x:Name="Black_Label"      CornerRadius="50"  Clicked="Black_Label_Clicked"        Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="Black"      BorderColor="white" BorderWidth="2" Background="black" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+
+
+
+           </Grid>
+       
+     
+    </ContentPage.Content>
+</ContentPage>

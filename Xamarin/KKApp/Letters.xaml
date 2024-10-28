@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Letters"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        
+                <Grid Padding="20" >
+
+
+            <ImageButton x:Name="A_Label"   Clicked="A_Label_Clicked"    Grid.Row="0" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="a.jpg"/>
+            <ImageButton x:Name="B_Label"   Clicked="B_Label_Clicked"    Grid.Row="0" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="b.jpg"/>
+            <ImageButton x:Name="C_Label"   Clicked="C_Label_Clicked"    Grid.Row="0" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="c.jpg"/>
+            <ImageButton x:Name="D_Label"   Clicked ="D_Label_Clicked"   Grid.Row="1" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="d.jpg"/>
+            <ImageButton x:Name="E_Label"   Clicked="E_Label_Clicked"    Grid.Row="1" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="e.jpg"/>
+            <ImageButton x:Name="F_Label"   Clicked="F_Label_Clicked"    Grid.Row="1" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="f.jpg"/>
+            <ImageButton x:Name="G_Label"   Clicked="G_Label_Clicked"    Grid.Row="2" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="g.jpg"/>
+            <ImageButton x:Name="H_Label"   Clicked="H_Label_Clicked"    Grid.Row="2" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="h.jpg"/>
+            <ImageButton x:Name="I_Label"   Clicked="I_Label_Clicked"    Grid.Row="2" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="i.jpg"/>
+            <ImageButton x:Name="J_Label"   Clicked="J_Label_Clicked"    Grid.Row="3" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="j.jpg"/>
+            <ImageButton x:Name="K_Label"   Clicked="K_Label_Clicked"    Grid.Row="3" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="k.jpg"/>
+            <ImageButton x:Name="L_Label"   Clicked="L_Label_Clicked"    Grid.Row="3" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="l.jpg"/>
+            <ImageButton x:Name="M_Label"   Clicked="M_Label_Clicked"    Grid.Row="4" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="m.jpg"/>
+            <ImageButton x:Name="N_Label"   Clicked ="N_Label_Clicked"   Grid.Row="4" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="n.jpg"/>
+            <ImageButton x:Name="O_Label"   Clicked="O_Label_Clicked"    Grid.Row="4" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="o.jpg"/>
+            <ImageButton x:Name="P_Label"   Clicked="P_Label_Clicked"    Grid.Row="5" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="p.jpg"/>
+            <ImageButton x:Name="Q_Label"   Clicked="Q_Label_Clicked"    Grid.Row="5" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="q.jpg"/>
+            <ImageButton x:Name="R_Label"   Clicked="R_Label_Clicked"    Grid.Row="5" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="r.jpg"/>
+            <ImageButton x:Name="S_Label"   Clicked="S_Label_Clicked"    Grid.Row="6" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="s.jpg"/>
+            <ImageButton x:Name="T_Label"   Clicked="T_Label_Clicked"    Grid.Row="6" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="t.jpg"/>
+            <ImageButton x:Name="U_Label"   Clicked="U_Label_Clicked"    Grid.Row="6" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="u.jpg"/>
+            <ImageButton x:Name="V_Label"   Clicked="V_Label_Clicked"    Grid.Row="7" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="v.jpg"/>
+            <ImageButton x:Name="W_Label"   Clicked= "W_Label_Clicked"   Grid.Row="7" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="w.jpg"/>
+            <ImageButton x:Name="X_Label"   Clicked ="X_Label_Clicked"   Grid.Row="7" Grid.Column="2"   BorderColor="Black" BackgroundColor="White" Source="x.jpg"/>
+            <ImageButton x:Name="Y_Label"   Clicked="Y_Label_Clicked"    Grid.Row="8" Grid.Column="0"   BorderColor="Black" BackgroundColor="White" Source="y.jpg"/>
+            <ImageButton x:Name="Z_Label"   Clicked="Z_Label_Clicked"    Grid.Row="8" Grid.Column="1"   BorderColor="Black" BackgroundColor="White" Source="z.jpg"/>
+
+        </Grid>
+            
+
+    </ContentPage.Content>
+</ContentPage>

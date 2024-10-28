@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KKApp.Marathi_Letters"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid Padding="20" >
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+
+
+            <Button x:Name="अ_Label"   Clicked="अ_Label_Clicked"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="अ" BorderColor="Black" BorderWidth="3" Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="आ_Label"   Clicked="आ_Label_Clicked"  Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="आ" BorderColor="Black" BorderWidth="3"  Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="इ_Label"    Clicked="इ_Label_Clicked"   Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="इ" BorderColor="Black" BorderWidth="3" Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="ई_Label"    Clicked ="ई_Label_Clicked"   Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="ई" BorderColor="Black" BorderWidth="3" Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="उ_Label"    Clicked="उ_Label_Clicked"   Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="उ" BorderColor="Black" BorderWidth="3" Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="ऊ_Label"    Clicked="ऊ_Label_Clicked"     Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="ऊ" BorderColor="Black" BorderWidth="3" Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="ए_Label"    Clicked="ए_Label_Clicked"      Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="ए" BorderColor="Black" BorderWidth="3" Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="ऐ_Label"    Clicked="ऐ_Label_Clicked"     Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="ऐ" BorderColor="Black" BorderWidth="3" Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="ओ_Label"   Clicked="ओ_Label_Clicked"   Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="ओ" BorderColor="Black" BorderWidth="3" Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="औ_Label"   Clicked="औ_Label_Clicked"    Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="औ" BorderColor="Black" BorderWidth="3" Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="अं_Label"   Clicked="अं_Label_Clicked"    Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="अं" BorderColor="Black" BorderWidth="3"  Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+            <Button x:Name="अः_Label"   Clicked="अः_Label_Clicked"    Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1"  Grid.RowSpan="1" Text="अः" BorderColor="Black" BorderWidth="3"  Background="GhostWhite" TextColor="Black" FontSize="50" FontAttributes="Bold"/>
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
